@@ -14,6 +14,7 @@ public class Main {
 
     public static void main(String args[]) {
         DiscordApi api = new DiscordApiBuilder().setToken(System.getenv("token")).login().join();
+        
 
         System.out.println("You can invite the bot by using the following url: " + api.createBotInvite());
 
