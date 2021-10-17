@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d09ffd9-1029-4d47-930a-94008e0e2b73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comclownsbot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/clownsbot/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/clownsbot/commands/NewGuyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/clownsbot/commands/PingCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/clownsbot/commands/PlayCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/clownsbot/commands/StopCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/clownsbot/utils/LavaplayerAudioSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/clownsbot/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/clownsbot/commands/NewGuyCommand$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/clownsbot/commands/NewGuyCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/clownsbot/commands/PingCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/clownsbot/commands/PlayCommand$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/clownsbot/commands/PlayCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/clownsbot/commands/StopCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/clownsbot/utils/LavaplayerAudioSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/clownsbot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/clownsbot/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -125,11 +105,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/github/clownsbot/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="782">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                <state relative-caret-position="345">
+                  <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -137,11 +117,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="7" selection-start-column="7" selection-end-column="7" />
+                  <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -184,8 +164,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/clownsbot/commands/NewGuyCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/clownsbot/commands/PlayCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/clownsbot/commands/StopCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/clownsbot/Main.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/clownsbot/Main.java" />
       </list>
     </option>
   </component>
@@ -214,6 +194,32 @@
             <path>
               <item name="comclownsbot" type="b2602c69:ProjectViewProjectNode" />
               <item name="comclownsbot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comclownsbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comclownsbot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comclownsbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comclownsbot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comclownsbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comclownsbot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comclownsbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comclownsbot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="clownsbot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,6 +250,9 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="token" value="ODk4NzgxMDY4NTQ5ODIwNDk3.YWpNGQ.aWQ-fmOuYGTkv4yTYziQByapLhs" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="com.github.clownsbot.Main" />
       <module name="comclownsbot" />
       <extension name="coverage">
@@ -287,12 +296,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12308598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49941108" visible="true" weight="0.32955405" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50058895" side_tool="true" visible="true" weight="0.32955405" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49941108" weight="0.32955405" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5008834" side_tool="true" visible="true" weight="0.14285715" />
       <window_info anchor="bottom" id="Messages" weight="0.32955405" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49941108" weight="0.14285715" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4991166" visible="true" weight="0.14285715" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -331,16 +340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="494" column="51" selection-start-line="494" selection-start-column="51" selection-end-line="494" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/clownsbot/commands/PingCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -396,20 +395,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/clownsbot/Main.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/clownsbot/commands/PingCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/clownsbot/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="345">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
