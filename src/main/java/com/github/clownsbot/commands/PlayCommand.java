@@ -23,7 +23,9 @@ public class PlayCommand implements MessageCreateListener {
 
     @Override
     public void onMessageCreate(MessageCreateEvent event) {
-        if(event.getMessageContent().equalsIgnoreCase("!play")) {
+        if(event.getMessageContent().contains("!play ")) {
+            String url = event.getMessageContent().replace("!play", "");
+            System.out.println(url);
             User user = event.getMessage().getAuthor().asUser().get();
 
             long userVoiceChannelId = 0;
@@ -73,6 +75,10 @@ public class PlayCommand implements MessageCreateListener {
                         e.printStackTrace();
                         return null;
                     });
+
+//                    if(event.getMessageContent().equalsIgnoreCase("!stop"))
+//                        channel.getApi().disconnect();
+
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
