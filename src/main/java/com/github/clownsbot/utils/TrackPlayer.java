@@ -12,17 +12,21 @@ import org.javacord.api.audio.AudioSource;
 import org.javacord.api.event.message.MessageCreateEvent;
 import org.javacord.api.entity.channel.ServerVoiceChannel;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class TrackPlayer {
     public static void play(ServerVoiceChannel channel, String url, MessageCreateEvent event) {
         channel.connect().thenAccept(audioConnection -> {
             AudioPlayerManager playerManager = new DefaultAudioPlayerManager();
             playerManager.registerSourceManager(new YoutubeAudioSourceManager());
+
             AudioPlayer player = playerManager.createPlayer();
 
             AudioSource source = new LavaplayerAudioSource(event.getApi(), player);
             audioConnection.setAudioSource(source);
 
-            playerManager.loadItem(url.toString(), new AudioLoadResultHandler() {
+            playerManager.loadItem(url, new AudioLoadResultHandler() {
                 @Override
                 public void trackLoaded(AudioTrack audioTrack) {
                     player.playTrack(audioTrack);
@@ -42,9 +46,11 @@ public class TrackPlayer {
 
                 @Override
                 public void loadFailed(FriendlyException e) {
-                    event.getChannel().sendMessage("rami is not a good engineer tell him it failed");
+                    event.getChannel().sendMessage("something happened in the player");
                 }
             });
+
+
         }).exceptionally(e -> {
             e.printStackTrace();
             return null;

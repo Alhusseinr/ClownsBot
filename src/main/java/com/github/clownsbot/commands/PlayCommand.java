@@ -10,7 +10,6 @@ import org.javacord.api.listener.message.MessageCreateListener;
 import com.github.clownsbot.utils.TrackPlayer;
 
 public class PlayCommand implements MessageCreateListener {
-
     @Override
     public void onMessageCreate(MessageCreateEvent event) {
         if(event.getMessageContent().contains("!play ")) {
@@ -20,7 +19,7 @@ public class PlayCommand implements MessageCreateListener {
                     User user = event.getMessage().getAuthor().asUser().get();
                     long userVoiceChannelId = UserInfo.getVoiceChannelId(event, user);
 
-                    if(userVoiceChannelId != 0 ){
+                    if(userVoiceChannelId != 0) {
                         try{
                             ServerVoiceChannel channel = event.getApi().getServerVoiceChannelById(userVoiceChannelId).get();
                             TrackPlayer.play(channel, url, event);
